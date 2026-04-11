@@ -26,3 +26,8 @@ white   = "#F7F7FF"
 [colors.cursor]
 text   = "#000007"
 cursor = "#F7F7FF"
+
+[font]
+normal.family = "MesloLGS Nerd Font Mono"
+normal.style = "Regular"
+size = 9

@@ -1,0 +1,68 @@
+/**
+* @name base16 Discord
+* @author @bypass_
+* @version 0.1.0
+* @description Built using Aether and Pywal
+* @source https://github.com/imbypass/base16-Discord
+**/
+
+/* import the parent */
+@import url('https://imbypass.github.io/base16-discord/omarchy-discord.theme.css');
+
+:root {
+    --slate:   #777692;
+    --color00: #0D0D0D;
+    --color01: #620625;
+    --color02: #BB0D35;
+    --color03: #b36d43;
+    --color04: #78824b;
+    --color05: #BB0D35;
+    --color06: #c9a554;
+    --color07: #F7F7FF;
+    --color08: #BB0D35;
+    --color09: #BB0D35;
+    --color10: #BB0D35;
+    --color11: #BB0D35;
+    --color12: #620625;
+    --color13: #BB0D35;
+    --color14: #620625;
+    --color15: #F7F7FF;
+
+}
+
+.theme-dark, .theme-midnight, .visual-refresh {
+    --channels-default: var(--slate) !important;
+    --interactive-muted: var(--slate) !important;
+    --text-muted: var(--slate) !important;
+    --text-secondary: var(--slate) !important;
+    --channel-text-area-placeholder: var(--color15) !important;
+    --text-link: var(--slate) !important;
+}
+
+.theme-dark [class*="markup_"],
+.theme-midnight [class*="markup_"],
+.visual-refresh [class*="markup_"] {
+    opacity: 1 !important;
+    color: var(--color15) !important;
+}
+
+[class*="divider_"],
+[class*="timestamp_"] {
+    color: var(--color07) !important;
+    opacity: 1 !important;
+}
+
+[class*="divider_"] {
+    border-color: var(--slate) !important;
+}
+
+.visual-refresh [class*="voiceBar_"] svg path,
+.visual-refresh [class*="voiceBar_"] svg rect {
+    fill: var(--color07) !important;
+}
+
+path[fill="rgb(88,101,242)"],
+rect[fill="rgb(88,101,242)"],
+svg[fill="rgb(88,101,242)"] {
+    fill: var(--color07) !important;
+}

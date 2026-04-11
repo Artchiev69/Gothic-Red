@@ -61,7 +61,7 @@
   },
 
   "custom/weather": {
-    "exec": "wttrbar --location Heinfels --nerd",
+    "exec": "wttrbar --location yourLocation --nerd",
     "interval": 3600,
     "return-type": "json",
     "format": "{}°C",
